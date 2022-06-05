@@ -95,7 +95,7 @@ const  Mint = () => {
         </div>
         <div className={styles.mintModuleBottom}>
          Clowns implements ERC721A for the lowest possible mint cost
-          in addition to allowing one to mint multiple NFT's at nearly the cost of one
+          in addition to allowing one to mint multiple NFT&apos;s at nearly the cost of one
         </div>
 
         <div className={styles.mintHeader}>
