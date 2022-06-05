@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { Link } from 'next/link'
 
 export default function Home() {
   return (
@@ -16,8 +17,8 @@ export default function Home() {
       
       <div className={styles.menu}>
         <div className={styles.rightMenu}>
-            <a href="/mint"> Mint </a> 
-            <a href="/schedule"> Schedule </a> 
+            <Link href="/mint"> Mint </Link> 
+            <Link href="/schedule"> Schedule </Link> 
             <img src="logos/etherscan.png" width="25vw" className={styles.menuImage}/>
             <img src="logos/opensea.svg" width="25vw" className={styles.menuImage}/>
             <img src="logos/twitter.svg" width="25vw" className={styles.menuImage}/>
