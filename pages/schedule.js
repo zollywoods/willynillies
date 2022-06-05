@@ -17,8 +17,6 @@ export default function Home() {
       
       <div className={styles.menu}>
         <div className={styles.rightMenu}>
-            <Link href="/mint"> Mint </Link> 
-            <Link href="/schedule"> Schedule </Link> 
             <img src="logos/etherscan.png" width="25vw" className={styles.menuImage}/>
             <img src="logos/opensea.svg" width="25vw" className={styles.menuImage}/>
             <img src="logos/twitter.svg" width="25vw" className={styles.menuImage}/>

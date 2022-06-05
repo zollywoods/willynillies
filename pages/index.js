@@ -3,9 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import React, { useState, useCallback, useEffect } from 'react';
 import {Navigate} from 'react-router-dom';
-import Mint from './mint';
+// import Mint from './mint';
 import { useRouter } from 'next/router'
-import { Link } from 'next/link'
 
 
 //&#39
@@ -79,8 +78,6 @@ export default function Home() {
       
       {/* <div className={styles.menu}>
         <div className={styles.rightMenu}>
-            <Link href="/mint"> Mint </Link> 
-            <Link href="/schedule"> Schedule </Link> 
 
             <img src="logos/etherscan.png" width="25vw" className={styles.menuImage}/>
             <img src="logos/opensea.svg" width="25vw" className={styles.menuImage}/>
