@@ -1,116 +1,276 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 0;
+  display: block;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
+  color: #fefdfa;
+  min-height: 100%;
+  padding: 20% 15%;
+  background-color: #81613c;
+  height: 100vh;
   margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  width: 100%;
 }
 
-.title,
-.description {
+.mintMain {
+  color: #81613c;
+  min-height: 100vh;
+  padding: 10px 0;
+  padding-bottom: 100px;
+  background-color: #ecdeb7;
+  /* background-color: #ffffff; */
+  margin: 0;
+  width: 100%;
+}
+
+.mintHeader{
+  position: relative;
+  display: block;
+  font-size: 6em;
+  text-align: center;
+  font-family: 'Rye';
+  margin-top: 0%;
+  margin-bottom: 2%;
+
+}
+
+.mintModuleTop{
+  width: 475px;
+  height: 100%;
+  color: #fefdfa;
+  margin: 0 auto;
+  background-color: #b8936c;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+  border-width: 5px;
+  border-style: solid;
+  padding: .5%;
+  font-size: 1.5em;
+  /* box-shadow: 4px 6px #888888; */
+  border-color: #b8936c;
+  /* border-bottom-color: coral; */
+
+  text-align: center;
+
+}
+
+
+.mintModule{
+  width: 475px;
+  color: #fefdfa;
+  margin: 0 auto;
+  background-color: #81613c;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+  border-width: 3px;
+  border-style: solid;
+  padding: 2%;
+  font-size: 1.75em;
+  /* box-shadow: 4px 6px #888888; */
+  border-color: #81613c;
+  border-top-color: #81613c;
+  /* border-color: rgb(0, 0, 0); */
+}
+
+.mintInput{
+  width: 99%;
+  background-color: beige;
+  border-radius: 10px;
+  border-color: beige;
+  border-style: solid;
+  padding: 10px;
+  margin: 0 auto;
+  color: black;
+  display: flex;
+}
+
+.input{
+  vertical-align: middle;
+  margin-left: 10%;
+  display: inline-block;
+  width: 40%;
+  margin: 0 auto;
+}
+
+
+
+.symbols{
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.symbols:hover{
+  cursor: pointer;
+}
+
+.number{
+  vertical-align: middle;
+  font-size: .85em;
+}
+
+.title{
+  font-family: 'Rye';
+  font-size: 7em;
   text-align: center;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.ethAmount{
+  margin-left: auto;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
+.mintButton{
+  width: 99%;
+  background-color: rgb(240, 240, 78);
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  border-color: rgb(240, 240, 78);
+  border-style: solid;
+  padding: 10px;
+  margin: 0 auto;
+  color: black;
+   margin-top: 6%;
+  text-align: center;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.mintButton:hover{
+  cursor: pointer;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.mintModuleBottom{
+  width: 475px;
+  height: 100%;
+  color: #c4c4c4;
+  margin: 0 auto;
+  background-color: #987a5b;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+
+  border-width: 5px;
+  border-style: solid;
+  padding: .6% 1%;
+  font-weight: 200;
+  font-size: 1em;
+  /* box-shadow: 4px 6px #888888; */
+  border-color: #987a5b;
+  /* border-bottom-color: coral; */
+
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.menu{
+  position: absolute;
+  width: 100%;
+  padding: 20px 80px;
+  display: flex;
+  font-size: 1.5em;
+  color: #c5c5c5;
+  font-weight: 300;
+  vertical-align: middle;
+  background-color: #81613c;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.menuImage{
+  margin-left: 50px;
+  vertical-align:middle;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+.rightMenu{
+  margin-left: auto;
+  word-spacing: 50px;
+
+}
+
+.leftImage{
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  height: 90%;
+}
+
+.left{
+  margin-right: auto;
+  /* word-spacing: 10px; */
+}
+
+.walletButton{
+  background-color:#d1ad85;
+  padding: 8px 12px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: black;
+  color: black;
+}
+
+.clownHeader{
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Rye';
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+
+}
+
+.clownHeader:hover{
+  cursor: pointer;
+}
+
+
+.bottomCopy{
+  width: 30%;
+  font-size: .9em;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+
+
+@media (max-width: 800px) {
+  .main {
+    padding: 30% 10%;
+    display: block;
+    text-align: center;
   }
+
+  .clownHeader{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Rye';
+  }
+  
+  .mintMain{
+    padding: 2% 0%;
+  }
+  .mintModuleTop{
+    width: 90%;  
+  }
+
+  .mintModule{
+    width: 90%;  
+    padding: 7% 3%;
+  }
+
+  .mintModuleBottom{
+    width: 90%;  
+    padding: 2% 6%;
+    font-size: .9em;
+  }
+
+  .menu{
+    display: none;
+  }
+  
 }

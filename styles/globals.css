@@ -1,9 +1,11 @@
 html,
 body {
   padding: 0;
+  background-color: #fefdfa;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Teko';
+  height: 100vh;
+  /* overflow: hidden; */
 }
 
 a {
@@ -14,3 +16,5 @@ a {
 * {
   box-sizing: border-box;
 }
+
+

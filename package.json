@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^6.3.10",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-router-dom": "^6.3.0",
+    "web3": "^1.7.3",
+    "web3modal": "^1.9.7"
   },
   "devDependencies": {
     "eslint": "8.16.0",
