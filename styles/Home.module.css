@@ -6,7 +6,7 @@
 .main {
   color: #E3B22E;
   min-height: 100%;
-  padding: 10% 15%;
+  padding: 5% 15%;
   /* background-color: #81613c; */
   background-color: #1E3E75;
   height: 100vh;
@@ -444,13 +444,18 @@
   }
 
   .bunny{
-    width: 25%;
-    left: 10%;
+    width: 30%;
+    left: -2%;
   }
 
 
   .teddy{
-    width: 80%
+    width: 80%;
+    right: -0%;
+  }
+
+  .midContainer{
+    padding-bottom: 10px;
   }
 
 

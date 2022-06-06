@@ -52,7 +52,7 @@ export default function Home() {
     console.log("this is the index: ", index);
     setSentence(sentences[index]);
     setIndex(index + 1);
-    const calculatedWidth = (index + 1) * 2.8;
+    const calculatedWidth = (index + 1) * 3;
     const widthString = calculatedWidth.toString() + "%"
     console.log(widthString)
     setFaceWidth({width: widthString})
