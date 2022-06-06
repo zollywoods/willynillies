@@ -52,7 +52,7 @@ export default function Home() {
     console.log("this is the index: ", index);
     setSentence(sentences[index]);
     setIndex(index + 1);
-    const calculatedWidth = (index + 1) * 3;
+    const calculatedWidth = (index + 1) * 2.8;
     const widthString = calculatedWidth.toString() + "%"
     console.log(widthString)
     setFaceWidth({width: widthString})
@@ -78,7 +78,7 @@ export default function Home() {
       <Head>
         <title>WillieNillys</title>
         <meta name="description" content="Willy Nillies NFT Project" />
-        <meta name="keywords" content="WillieNilly, NFT, Crypto, Clowns, WillyNilly" />
+        <meta name="keywords" content="Willynillies, NFT, Crypto, Clowns, WillyNilly" />
 
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
