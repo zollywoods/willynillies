@@ -104,7 +104,7 @@ const  Mint = () => {
         </div>
 
         <div className={styles.mintHeader}>
-          <img src="clowns/clowncar.png" className={styles.topImage} width="30%"/> <br/>
+          <img src="clowns/clowncar.png" className={styles.midImage}/> <br/>
         </div>
 
         <div className={styles.supplyModule}>

@@ -48,7 +48,12 @@
 }
 
 .topImage{
-  width: 17.5%;
+  width: 20%;
+}
+
+.midImage{
+  margin-top: 2%;
+  width: 30%;
 }
 
 
@@ -359,7 +364,9 @@
 .topImage{
   width: 50%;
 }
-
+.midImage{
+  width: 60%;
+}
   .bottomCopy{
     width: 80%;
   }
