@@ -4,7 +4,17 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { motion } from "framer-motion"
 import { Link } from 'next/link'
+import WalletLink from 'walletlink'
+import Web3Modal from 'web3modal'
+// import 'dotenv/config' 
 
+
+// const infuraID = process.env.INFURA_ID;
+const infuraID = 'b06292d8ce5b481cadf17d9b78370b54';
+
+
+
+console.log("HERE IS   ", infuraID);
 
 const  Mint = () => {
   const [count, setCount] = useState(1);
@@ -147,6 +157,10 @@ const  Mint = () => {
           <img src="/accessories/bunny.png" className={styles.bunny} />
 
         </div>
+
+        <img src="/accessories/heart.png" className={styles.heart} />
+          <img src="/accessories/star.png" className={styles.star} />
+
 
         </div>
     </div>
