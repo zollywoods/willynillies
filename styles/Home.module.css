@@ -330,6 +330,7 @@
     width: 90%;  
   }
 
+
   .mintModule{
     width: 90%;  
     padding: 7% 3%;
@@ -341,8 +342,17 @@
     font-size: .9em;
   }
 
+  .supplyModule{
+    width: 90%;  
+    padding: 7% 3%;
+  }
+
   .menu{
     display: none;
+  }
+
+  .bottomCopy{
+    width: 40%;
   }
   
 }
