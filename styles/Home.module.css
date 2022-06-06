@@ -47,6 +47,10 @@
   animation:  2s ease-in-out;
 }
 
+.topImage{
+  width: 17.5%;
+}
+
 
 
 .mintHeader{
@@ -339,7 +343,7 @@
   .mintModuleBottom{
     width: 90%;  
     padding: 2% 6%;
-    font-size: .9em;
+    font-size: 1em;
   }
 
   .supplyModule{
@@ -350,6 +354,11 @@
   .menu{
     display: none;
   }
+
+
+.topImage{
+  width: 50%;
+}
 
   .bottomCopy{
     width: 80%;

@@ -76,7 +76,7 @@ const  Mint = () => {
       <div className={styles.mintMain}>
 
       <div className={styles.mintHeader}>
-      <img src="clowns/willynillies.png" className={styles.topImage} width="17.5%"/> <br/>
+      <img src="clowns/willynillies.png" className={styles.topImage} /> <br/>
 
        {/* <div> CLOWNS </div>  */}
       </div>
