@@ -76,7 +76,7 @@ export default function Home() {
   return (
     <div >
       <Head>
-        <title>Clowns</title>
+        <title>WillieNillys</title>
         <meta name="description" content="Willy Nillies NFT Project" />
         <meta name="keywords" content="WillieNilly, NFT, Crypto, Clowns, WillyNilly" />
 

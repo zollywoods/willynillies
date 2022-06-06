@@ -48,7 +48,7 @@ const  Mint = () => {
   return (
     <div >
       <Head>
-        <title>Clowns</title>
+        <title>WillieNillys Mint</title>
         <meta name="description" content="Clown App" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
