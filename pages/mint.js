@@ -64,8 +64,8 @@ const  Mint = () => {
         <div className={styles.rightMenu}>
         {/* <Link href="/mint"> Mint </Link> 
             <Link href="/schedule"> Schedule </Link>  */}
-            <img src="logos/etherscan.png" width="25vw" className={styles.menuImage}/>
-            <img src="logos/opensea.svg" width="25vw" className={styles.menuImage}/>
+            <img src="logos/etherscan-yellow.svg" width="25vw" className={styles.menuImage}/>
+            <img src="logos/opensea-pink.svg" width="25vw" className={styles.menuImage}/>
             <img src="logos/twitter.svg" width="25vw" className={styles.menuImage}/>
         </div>
       </div>
@@ -74,7 +74,7 @@ const  Mint = () => {
    
 
       <div className={styles.mintMain}>
-
+      <div className={styles.midContainer}> 
       <div className={styles.mintHeader}>
       <img src="clowns/willynillies.png" className={styles.topImage} /> <br/>
 
@@ -108,6 +108,7 @@ const  Mint = () => {
         </div>
 
         <div className={styles.supplyModule}>
+          <img src="/accessories/starhat.png" className={styles.starHat}/>
             <div className = {styles.supplyLeft}>
               Total Supply Left :      
               <span className={styles.numberRight}> 1000 </span>
@@ -139,14 +140,17 @@ const  Mint = () => {
 
             The man shrugs. “I am Willy Nilly.” 
             <br/> <br/>
+        </div>
+
+
+        <img src="/accessories/teddy.png" className={styles.teddy} />
+          <img src="/accessories/bunny.png" className={styles.bunny} />
 
         </div>
 
         </div>
-
-
-
     </div>
+    
   )
 }
 

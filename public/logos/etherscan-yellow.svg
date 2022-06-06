@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" width="45" height="45">
+	<title>etherscan</title>
+	<defs>
+		<image  width="45" height="45" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtAQMAAAAA1HDZAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA6rEA/MxzQAAAAAJ0Uk5TAP9bkSK1AAAAnklEQVR4nEXQvQ3DIBAF4EMULmldRGGNdKySMehImbGuzBhkA0oKyy/3Y8c0n0AH4j2igI1kJeAlZICFBgwBwCSZgM5EYSdaBNi83sgKnxSZz11v/xkn8uLMU6lGr3Z40Qlf4UNg4e2sxv1h3KqxTiM40VmcNKlxf5ahUDOCZCnMEZ2yfpUpaULNGTx10kQad/fN5hXMq4mjl6Ml6+wH1/ek3RHg3+EAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

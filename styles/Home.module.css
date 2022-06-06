@@ -16,14 +16,20 @@
 }
 
 .mintMain {
+  position: static ;
   color: #81613c;
-  min-height: 100vh;
+  min-height: 100%;
   padding: 10px 0;
-  padding-bottom: 100px;
+  padding-bottom: 0;
   background-color: #ecdeb7;
   /* background-color: #ffffff; */
   margin: 0;
   width: 100%;
+}
+
+.midContainer{
+  position: relative;
+  padding-bottom: 100px;
 }
 
 @keyframes clownFace {
@@ -92,10 +98,12 @@
   /* border-bottom-color: coral; */
 
   text-align: center;
+  z-index: 50;
 
 }
 
 .supplyModule{
+  position: relative;
   width: 440px;
   color: #fefdfa;
   margin: 0 auto;
@@ -110,6 +118,14 @@
   border-color: #1E3E75;
   /* border-color: rgb(0, 0, 0); */
 }
+
+.starHat{
+  position: absolute; 
+  top: -45%;
+  left: -10%;
+  width: 20%;
+  z-index: 10;
+  transform: rotate(-30deg);}
 
 /* .supplyModule:hover{
   box-shadow: 2px 2px 2px 2px #300000;
@@ -138,6 +154,8 @@
   border-color: #81613c;
   border-top-color: #81613c;
   /* border-color: rgb(0, 0, 0); */
+  z-index: 50;
+
 }
 
 .mintInput{
@@ -150,6 +168,8 @@
   margin: 0 auto;
   color: black;
   display: flex;
+  z-index: 50;
+
 }
 
 .input{
@@ -166,6 +186,8 @@
   vertical-align: middle;
   margin-left: 10px;
   margin-right: 10px;
+  z-index: 50;
+
 }
 
 .symbols:hover{
@@ -322,12 +344,30 @@
 
 
 .bottomCopy{
+  position: relative;
   width: 30%;
   font-size: 1.2em;
   margin: 0 auto;
   text-align: center;
   font-weight: 400;
   /* font-family: 'Roboto'; */
+}
+
+
+
+.teddy{
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  width: 40%;
+}
+
+
+.bunny{
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
+  width: 15%;
 }
 
 
@@ -374,7 +414,7 @@
 
 
 .topImage{
-  width: 50%;
+  width: 70%;
 }
 .midImage{
   width: 60%;
@@ -387,5 +427,16 @@
     width: 80%;
     margin-bottom: 5%;
   }
+
+  .bunny{
+    width: 15%;
+    left: 50%;
+  }
+
+
+  .teddy{
+    width: 70%
+  }
+
   
 }
