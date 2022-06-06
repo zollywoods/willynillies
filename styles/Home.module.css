@@ -48,12 +48,17 @@
 }
 
 .topImage{
-  width: 20%;
+  width: 22%;
 }
 
 .midImage{
   margin-top: 2%;
   width: 30%;
+}
+
+.bottomImage{
+  margin-top: 2%;
+  width: 15%;
 }
 
 
@@ -91,21 +96,24 @@
 }
 
 .supplyModule{
-  width: 475px;
+  width: 440px;
   color: #fefdfa;
   margin: 0 auto;
-  background-color: #81613c;
+  background-color: #1E3E75;
   border-radius: 10px;
 
   border-width: 3px;
   border-style: solid;
-  padding: 2%;
+  padding: 2.2%;
   font-size: 1.75em;
   /* box-shadow: 4px 6px #888888; */
-  border-color: #81613c;
-  border-top-color: #81613c;
+  border-color: #1E3E75;
   /* border-color: rgb(0, 0, 0); */
 }
+
+/* .supplyModule:hover{
+  box-shadow: 2px 2px 2px 2px #300000;
+} */
 
 
 
@@ -352,7 +360,7 @@
   }
 
   .supplyModule{
-    width: 90%;  
+    width: 80%;  
     padding: 7% 3%;
   }
 
@@ -367,8 +375,13 @@
 .midImage{
   width: 60%;
 }
+
+.bottomImage{
+  width: 40%;
+}
   .bottomCopy{
     width: 80%;
+    margin-bottom: 5%;
   }
   
 }

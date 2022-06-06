@@ -114,7 +114,10 @@ const  Mint = () => {
             <div className={styles.numberMinted} onClick={mint}>
               Number Minted : 
             </div>
-        </div> <br/> <br/> <br/> <br/>
+        </div> <br/> 
+        <div className={styles.mintHeader}>
+          <img src="clowns/clownface.png" className={styles.bottomImage}/> <br/>
+        </div>
 
 
         <div className={styles.bottomCopy}>
