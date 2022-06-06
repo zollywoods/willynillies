@@ -109,10 +109,15 @@ const  Mint = () => {
 
         <div className={styles.supplyModule}>
             <div className = {styles.supplyLeft}>
-                Total Supply Left :
+              Total Supply Left :      
+              <span className={styles.numberRight}> 1000 </span>
+           
             </div>
+
             <div className={styles.numberMinted} onClick={mint}>
               Number Minted : 
+              <span className={styles.numberRight}> 9000 </span>
+
             </div>
         </div> <br/> 
         <div className={styles.mintHeader}>

@@ -210,7 +210,11 @@
   margin: 0 auto;
   color: black;
   margin-top: 6%;
-  text-align: left;
+  display: flex;
+}
+
+.numberRight{
+  margin-left: auto;
 }
 
 .mintButton{
