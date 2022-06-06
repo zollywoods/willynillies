@@ -77,7 +77,9 @@ export default function Home() {
     <div >
       <Head>
         <title>Clowns</title>
-        <meta name="description" content="Clown App" />
+        <meta name="description" content="Willy Nillies NFT Project" />
+        <meta name="keywords" content="WillieNilly, NFT, Crypto, Clowns, WillyNilly" />
+
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
