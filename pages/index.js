@@ -14,6 +14,10 @@ export default function Home() {
   const [toMint, setToMint] = useState(false);
   const [sentence, setSentence] = useState("I used to be a man... Then came the NFTs.");
   const [index, setIndex] = useState(0);
+
+  const [faceWidth, setFaceWidth] = useState({width: "0%"});
+
+
   const sentences = [
     "They say web 3 is the wild west, but I think it's more like the circus.",
     "I minted everything I saw, but always made the wrong play... ",
@@ -48,6 +52,10 @@ export default function Home() {
     console.log("this is the index: ", index);
     setSentence(sentences[index]);
     setIndex(index + 1);
+    const calculatedWidth = (index + 1) * 3;
+    const widthString = calculatedWidth.toString() + "%"
+    console.log(widthString)
+    setFaceWidth({width: widthString})
   }
 
   //   useEffect(() => {
@@ -61,7 +69,7 @@ export default function Home() {
     setTimeout(() => {
       router.push("/mint")
       console.log("you made it to mint")  
-    }, 5000);
+    }, 500);
     
   }
 
@@ -91,6 +99,8 @@ export default function Home() {
          {sentence}
         </div>
       </div>
+
+      <img src="clowns/clownface.png" className={styles.clownFace} style={faceWidth}  alt="big clown" />
 
     </div>
   ) 

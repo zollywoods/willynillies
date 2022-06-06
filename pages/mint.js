@@ -14,11 +14,15 @@ const  Mint = () => {
 
 
   function add() {
+    if(count !== 3){
     var newCount = count + 1;
     setCount( newCount );
     var newEthPrice = (ethPrice * 1000 + .05 * 1000)/1000 ;
-
     setEthPrice((Math.round(newEthPrice * 100) / 100).toFixed(2) );
+    }
+    else{
+      return;
+    }
   }
 
   function minus() {
@@ -71,11 +75,11 @@ const  Mint = () => {
 
       <div className={styles.mintMain}>
 
-      <dic className={styles.mintHeader}>
+      <div className={styles.mintHeader}>
       <img src="clowns/willynillies.png" className={styles.topImage} width="17.5%"/> <br/>
 
        {/* <div> CLOWNS </div>  */}
-      </dic>
+      </div>
 
       <div className={styles.mintModuleTop}>
             Connect Wallet To Mint
@@ -103,6 +107,16 @@ const  Mint = () => {
           <img src="clowns/clowncar.png" className={styles.topImage} width="30%"/> <br/>
         </div>
 
+        <div className={styles.supplyModule}>
+            <div className = {styles.supplyLeft}>
+                Total Supply Left :
+            </div>
+            <div className={styles.numberMinted} onClick={mint}>
+              Number Minted : 
+            </div>
+        </div> <br/> <br/> <br/> <br/>
+
+
         <div className={styles.bottomCopy}>
             A tale is told that in the 2022 bear market, a man goes to visit a doctor, acclaimed for his ability to treat being down bad. “I can’t eat, I can’t sleep,” says the man. “I feel constant FOMO, but all my bags are worthless. I paperhand blue chips and diamond hand garbage. Please help me, doctor.”
             <br/> <br/>
@@ -119,7 +133,6 @@ const  Mint = () => {
             <br/> <br/>
 
         </div>
-
 
         </div>
 

@@ -4,13 +4,15 @@
 }
 
 .main {
-  color: #fefdfa;
+  color: #E3B22E;
   min-height: 100%;
   padding: 20% 15%;
-  background-color: #81613c;
+  /* background-color: #81613c; */
+  background-color: #1E3E75;
   height: 100vh;
   margin: 0;
   width: 100%;
+  overflow: hidden;
 }
 
 .mintMain {
@@ -24,6 +26,29 @@
   width: 100%;
 }
 
+@keyframes clownFace {
+  0% {
+      transform: scale(1.0);
+  }
+  100% {
+      transform: scale(2.0);
+  }
+}
+
+
+.clownFace{
+  display:block;
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  z-index: 3;
+  animation:  2s ease-in-out;
+}
+
+
+
 .mintHeader{
   position: relative;
   display: block;
@@ -32,7 +57,6 @@
   font-family: 'Rye';
   margin-top: 0%;
   margin-bottom: 2%;
-
 }
 
 .mintModuleTop{
@@ -56,6 +80,26 @@
   text-align: center;
 
 }
+
+.supplyModule{
+  width: 475px;
+  color: #fefdfa;
+  margin: 0 auto;
+  background-color: #81613c;
+  border-radius: 10px;
+
+  border-width: 3px;
+  border-style: solid;
+  padding: 2%;
+  font-size: 1.75em;
+  /* box-shadow: 4px 6px #888888; */
+  border-color: #81613c;
+  border-top-color: #81613c;
+  /* border-color: rgb(0, 0, 0); */
+}
+
+
+
 
 
 .mintModule{
@@ -126,16 +170,42 @@
   margin-left: auto;
 }
 
-.mintButton{
+
+.supplyLeft{
   width: 99%;
-  background-color: rgb(240, 240, 78);
+  background-color: #458538;
   border-radius: 10px;
-  border-color: rgb(240, 240, 78);
+  border-color: #458538;
+  border-style: solid;
+  padding: 10px;
+  margin: 0 auto;
+  color: beige;
+  display: flex;
+}
+
+.numberMinted{
+  width: 99%;
+  background-color: #C7E1C3;
+  border-radius: 10px;
+  border-color: #C7E1C3;
   border-style: solid;
   padding: 10px;
   margin: 0 auto;
   color: black;
-   margin-top: 6%;
+  margin-top: 6%;
+  text-align: left;
+}
+
+.mintButton{
+  width: 99%;
+  background-color: #eebd38;
+  border-radius: 10px;
+  border-color: #eebd38;
+  border-style: solid;
+  padding: 10px;
+  margin: 0 auto;
+  color: black;
+  margin-top: 6%;
   text-align: center;
 }
 
@@ -210,6 +280,7 @@
 }
 
 .clownHeader{
+  position: relative;
   text-align: center;
   font-size: 3em;
   font-family: 'Rye';
@@ -220,6 +291,7 @@
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
+                                  z-index: 10;
 
 }
 
@@ -230,24 +302,24 @@
 
 .bottomCopy{
   width: 30%;
-  font-size: .9em;
+  font-size: 1.2em;
   margin: 0 auto;
   text-align: center;
   font-weight: 400;
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
 }
 
 
 @media (max-width: 800px) {
   .main {
-    padding: 30% 10%;
+    padding:25% 10%;
     display: block;
     text-align: center;
   }
 
   .clownHeader{
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Rye';
   }
   
